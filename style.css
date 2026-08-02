@@ -1282,3 +1282,93 @@ a{
 
 
 }
+
+@media (max-width:768px){
+
+    /* MENU MOVIL */
+
+    .header{
+        position:relative;
+    }
+
+
+    .navbar{
+
+        width:100%;
+        flex-direction:column;
+        padding:15px;
+
+    }
+
+
+    .menu{
+
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+
+    }
+
+
+    .menu a{
+
+        font-size:14px;
+        padding:8px 14px;
+
+    }
+
+
+    /* SERVICIOS */
+
+    .services{
+
+        padding:60px 15px;
+
+    }
+
+
+    .section-title h2{
+
+        font-size:32px;
+
+    }
+
+
+    .services-container{
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+
+    }
+
+
+    .service-card{
+
+        width:100%;
+        max-width:350px;
+
+        text-align:center;
+
+    }
+
+
+
+    /* OPINIONES */
+
+    .dejar-opinion{
+
+        padding:60px 15px;
+
+    }
+
+
+    .opinion-card{
+
+        width:100%;
+
+    }
+
+
+}
