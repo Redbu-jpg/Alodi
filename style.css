@@ -1397,3 +1397,55 @@ a{
     }
 
 }
+
+@media (max-width:768px){
+
+    .servicios{
+
+        display:flex !important;
+        flex-direction:column !important;
+        align-items:center !important;
+
+    }
+
+
+    .servicios .card{
+
+        width:90% !important;
+        margin:15px auto !important;
+
+    }
+
+
+    .services-container{
+
+        display:flex !important;
+        flex-direction:column !important;
+
+    }
+
+
+    .service-card{
+
+        width:90% !important;
+        margin:15px auto !important;
+
+    }
+
+
+    .opiniones-container{
+
+        display:flex !important;
+        flex-direction:column !important;
+
+    }
+
+
+    .opinion-card{
+
+        width:90% !important;
+        margin:15px auto !important;
+
+    }
+
+}
