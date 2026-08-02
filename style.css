@@ -186,8 +186,6 @@ a{
 
 }
 
-
-
 .hero-content{
 
     position:relative;
@@ -200,7 +198,23 @@ a{
 
     animation:entrada 1.2s ease;
 
+    background:linear-gradient(
+        135deg,
+        rgba(0,119,255,.7),
+        rgba(0,191,255,.3)
+    );
+
+    padding:40px;
+
+    border-radius:30px;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.35);
+
+    animation:entrada 1.2s ease;
 }
+
+
+
 
 
 
@@ -1464,4 +1478,9 @@ a{
 
     box-shadow:0 20px 50px rgba(0,0,0,.3);
 
+}
+
+.hero-content{
+    background:red !important;
+    padding:50px !important;
 }
