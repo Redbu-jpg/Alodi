@@ -1207,3 +1207,78 @@ a{
 
 
 }
+
+@media (max-width:768px){
+
+
+/* MENU */
+
+.navbar{
+
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+
+}
+
+
+.menu{
+
+    width:100%;
+    justify-content:center;
+    flex-wrap:wrap;
+
+}
+
+
+.menu a{
+
+    font-size:13px;
+    padding:8px 12px;
+
+}
+
+
+
+/* SERVICIOS */
+
+.services-container{
+
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+
+}
+
+
+.service-card{
+
+    width:90%;
+    margin:auto;
+    padding:25px;
+
+}
+
+
+
+/* OPINIONES */
+
+.opiniones-container{
+
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+
+}
+
+
+.opinion-card{
+
+    width:90%;
+    margin:auto;
+    padding:25px;
+
+}
+
+
+}
