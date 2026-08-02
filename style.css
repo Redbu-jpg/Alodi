@@ -1372,3 +1372,28 @@ a{
 
 
 }
+
+@media (max-width:768px){
+
+    .servicios,
+    .services-container,
+    .opiniones-container{
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+
+    }
+
+
+    .card,
+    .service-card,
+    .opinion-card{
+
+        width:90%;
+        max-width:400px;
+
+    }
+
+}
