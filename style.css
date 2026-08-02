@@ -1095,3 +1095,115 @@ a{
 
 }
 
+/* =========================
+   VERSION MOVIL
+========================= */
+
+@media (max-width:768px){
+
+
+    .navbar{
+
+        width:95%;
+        padding:15px 0;
+
+    }
+
+
+    .logo img{
+
+        width:90px;
+
+    }
+
+
+    .menu{
+
+        gap:10px;
+
+    }
+
+
+    .menu a{
+
+        padding:8px 10px;
+        font-size:12px;
+
+    }
+
+
+    .btn-nav{
+
+        display:none;
+
+    }
+
+
+    .hero h1{
+
+        font-size:38px;
+
+    }
+
+
+    .hero p{
+
+        font-size:16px;
+
+        padding:0 20px;
+
+    }
+
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+
+    .btn-primary,
+    .btn-secondary{
+
+        width:80%;
+
+        text-align:center;
+
+    }
+
+
+    .servicios,
+    .services-container{
+
+        flex-direction:column;
+
+    }
+
+
+    .service-card,
+    .card{
+
+        width:90%;
+
+        margin:auto;
+
+    }
+
+
+    .about{
+
+        flex-direction:column;
+
+    }
+
+
+    .gallery-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+}
