@@ -21,19 +21,21 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 
 <body>
 
 
-<header class="header">
+<header class="header" id="menu">
 
     <nav class="navbar">
 
         <div class="logo">
-            <img src="img/logo.png" alt="ALODI">
-        </div>
+    <img id="logo-esquina" src="img/Letras_logo-removebg-preview.png" alt="ALODI">
+</div>
 
 
         <ul class="menu">
@@ -42,7 +44,7 @@
 
             <li><a href="#servicios">Servicios</a></li>
 
-            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#nosotros">Sobre ALODI</a></li>
 
             <li><a href="#galeria">Galería</a></li>
 
@@ -107,25 +109,6 @@
 
 </section>
 
-<section class="servicios">
-
-    <div class="card">
-        <h3>❄️ Aire acondicionado</h3>
-        <p>Instalación de equipos eficientes para hogares y empresas.</p>
-    </div>
-
-    <div class="card">
-        <h3>🔧 Reparaciones</h3>
-        <p>Solucionamos averías y problemas de climatización.</p>
-    </div>
-
-    <div class="card">
-        <h3>🛠 Mantenimiento</h3>
-        <p>Revisiones para que tu sistema funcione siempre perfecto.</p>
-    </div>
-
-</section>
-
 
 
 <section id="servicios" class="services">
@@ -146,48 +129,106 @@
     <div class="services-container">
 
 
+<div class="service-card">
+    <div class="service-icon">
+        <i class="fas fa-faucet"></i>
+    </div>
+    <h3>Fontanería</h3>
+    <p>
+        Instalación, reparación y mantenimiento de tuberías, grifería y sanitarios,
+        incluyendo detección de fugas y desatascos. Servicio para viviendas,
+        locales comerciales y comunidades.
+    </p>
+</div>
+
+<div class="service-card">
+    <div class="service-icon">
+        <i class="fas fa-temperature-high"></i>
+    </div>
+    <h3>Calefacción</h3>
+    <p>
+        Instalación, mantenimiento y reparación de sistemas de calefacción,
+        radiadores, suelo radiante y calderas. Optimización del rendimiento
+        para un mayor ahorro energético.
+    </p>
+</div>
+
+<div class="service-card">
+    <div class="service-icon">
+        <i class="fas fa-temperature-half"></i>
+    </div>
+    <h3>Climatización</h3>
+    <p>
+        Instalación y mantenimiento de aires acondicionados y bombas de calor,
+        incluyendo carga de gas y revisión de rendimiento. Soluciones eficientes
+        para todo el año.
+    </p>
+</div>
+
+
         <div class="service-card">
+    <div class="service-icon">
+        <i class="fas fa-wind"></i>
+    </div>
+    <h3>Ventilación</h3>
+    <p>
+        Sistemas de ventilación mecánica (VMC) para mejorar la calidad del aire
+        interior y extraer humos y olores. Soluciones para viviendas, locales
+        y garajes.
+    </p>
+</div>
 
-            <i class="fa-solid fa-snowflake"></i>
+<div class="service-card">
+    <div class="service-icon">
+        <i class="fas fa-fire"></i>
+    </div>
+    <h3>Gas</h3>
+    <p>
+        Instalaciones, revisiones y detección de fugas en gas natural y propano,
+        con certificados según normativa. Incluye tramitación con las compañías
+        suministradoras.
+    </p>
+</div>
 
-            <h3>Instalación</h3>
+<div class="service-card">
+    <div class="service-icon">
+        <i class="fas fa-snowflake"></i>
+    </div>
 
-            <p>
-                Instalación de equipos de aire acondicionado
-                con acabados profesionales.
-            </p>
+    <h3>Aire acondicionado</h3>
 
-        </div>
+    <p>
+        Instalación, reparación y mantenimiento de equipos de aire acondicionado,
+        bombas de calor y sistemas de climatización para viviendas y negocios.
+    </p>
+</div>
 
+<div class="service-card">
+    <div class="service-icon">
+        <i class="fas fa-tools"></i>
+    </div>
 
+    <h3>Reparación</h3>
 
-        <div class="service-card">
+    <p>
+        Servicio de reparación de equipos e instalaciones, solución de averías,
+        sustitución de componentes y puesta a punto para garantizar un
+        funcionamiento óptimo.
+    </p>
+</div>
 
-            <i class="fa-solid fa-screwdriver-wrench"></i>
+<div class="service-card">
+    <div class="service-icon">
+        <i class="fas fa-wrench"></i>
+    </div>
 
-            <h3>Reparación</h3>
+    <h3>Mantenimiento</h3>
 
-            <p>
-                Solución de averías y problemas
-                en sistemas de climatización.
-            </p>
-
-        </div>
-
-
-
-        <div class="service-card">
-
-            <i class="fa-solid fa-gears"></i>
-
-            <h3>Mantenimiento</h3>
-
-            <p>
-                Limpieza y revisión para mejorar
-                el rendimiento del equipo.
-            </p>
-
-        </div>
+    <p>
+        Mantenimiento preventivo y revisiones periódicas de instalaciones y
+        equipos para mejorar su rendimiento, evitar averías y alargar su vida útil.
+    </p>
+</div>
 
 
     </div>
@@ -204,13 +245,15 @@
 
     <div class="about-image">
 
-        <img src="img/trabajo1.jpg" alt="ALODI">
+        <img src="img/LOGO.jpeg" alt="ALODI">
 
     </div>
 
 
 
     <div class="about-text">
+
+        <button class="cerrar-about" id="cerrarAbout">✕</button>
 
     <h2>Sobre ALODI</h2>
 
@@ -423,7 +466,7 @@
 
     <div class="contact-box">
 
-
+        <section id="presupuesto" class="contacto">
         <h2>Solicita presupuesto</h2>
 
 
@@ -523,6 +566,112 @@
 
 <script src="script.js"></script>
 
+<script>
+const cards = document.querySelectorAll(".service-card");
+
+cards.forEach(card => {
+    card.addEventListener("click", () => {
+
+        const estabaActiva = card.classList.contains("active");
+
+        cards.forEach(c => c.classList.remove("active"));
+
+        if (!estabaActiva) {
+            card.classList.add("active");
+        }
+
+    });
+});
+</script>
+
+<div id="cookie-banner" class="cookie-banner">
+    <p>
+        Utilizamos cookies para mejorar la experiencia de navegación.
+        Al continuar navegando aceptas su uso. (=
+    </p>
+    <button id="accept-cookies">Aceptar</button>
+</div>
+
+<script>
+const banner = document.getElementById("cookie-banner");
+const button = document.getElementById("accept-cookies");
+
+if (localStorage.getItem("cookiesAceptadas")) {
+    banner.style.display = "none";
+}
+
+button.addEventListener("click", () => {
+    localStorage.setItem("cookiesAceptadas", "true");
+    banner.style.display = "none";
+});
+</script>
+
+<a href="#inicio" class="btn-arriba" id="btnArriba">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+<script>
+const btnArriba = document.getElementById("btnArriba");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+        btnArriba.classList.add("mostrar");
+    } else {
+        btnArriba.classList.remove("mostrar");
+    }
+});
+</script>
+
+<script>
+const logo = document.getElementById("logo-esquina");
+const presupuesto = document.getElementById("presupuesto");
+
+window.addEventListener("scroll", () => {
+    const posicion = presupuesto.getBoundingClientRect();
+
+    if (posicion.top < window.innerHeight) {
+        logo.classList.add("oculto");
+    } else {
+        logo.classList.remove("oculto");
+    }
+});
+</script>
+
+<div id="overlay"></div>
+
+<script>
+const cuadro = document.querySelector(".about-text");
+const cerrar = document.getElementById("cerrarAbout");
+const overlay = document.getElementById("overlay");
+
+function abrirAbout() {
+    cuadro.classList.add("enfocado");
+    overlay.classList.add("activo");
+    document.body.classList.add("no-scroll");
+}
+
+function cerrarAbout() {
+    cuadro.classList.remove("enfocado");
+    overlay.classList.remove("activo");
+    document.body.classList.remove("no-scroll");
+}
+
+cuadro.addEventListener("click", (e) => {
+    if (e.target === cerrar || cuadro.classList.contains("enfocado")) return;
+    abrirAbout();
+});
+
+cerrar.addEventListener("click", (e) => {
+    e.stopPropagation();
+    cerrarAbout();
+});
+
+overlay.addEventListener("click", cerrarAbout);
+
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") cerrarAbout();
+});
+</script>
 
 </body>
 
